@@ -1,0 +1,182 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f6fa;
+  color: #1f2937;
+}
+
+.app-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 30px 20px;
+}
+
+.app-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 0.3rem;
+}
+
+.subtitle {
+  font-size: 1.1rem;
+  color: #6b7280;
+}
+
+.top-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+.content-section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.live-room-container {
+  margin-top: 20px;
+}
+.controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin: 20px auto;
+  flex-wrap: wrap;
+  padding: 12px;
+  background: #f0f0f0;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  max-width: 90%;
+}
+button {
+  padding: 10px 18px;
+  border: none;
+  border-radius: 8px;
+  background-color: #3498db;
+  color: white;
+  font-weight: 600;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background-color: #2980b9;
+  transform: translateY(-1px);
+}
+
+button:active {
+  transform: scale(0.96);
+}
+
+button:disabled {
+  background-color: #bdc3c7;
+  cursor: not-allowed;
+}
+.btn {
+  padding: 10px 14px;
+  font-size: 16px;
+  margin: 6px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  color: white;
+  transition: background-color 0.3s;
+}
+
+.record-btn {
+  background-color: #e74c3c;
+}
+.record-btn:hover {
+  background-color: #c0392b;
+}
+
+.play-btn {
+  background-color: #2ecc71;
+}
+.play-btn:hover {
+  background-color: #27ae60;
+}
+
+.download-btn {
+  background-color: #8e44ad;
+}
+.download-btn:hover {
+  background-color: #71368a;
+}
+.fetch-btn {
+  background-color: #1a3e72;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 8px;
+  font-size: 14px;
+  cursor: pointer;
+  margin-left: 10px;
+  transition: background-color 0.3s;
+}
+
+.fetch-btn:hover {
+  background-color: #004e9a;
+}
+
+.session-controls {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.start-btn,
+.end-btn {
+  background-color: #1a3e72;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 8px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.start-btn:disabled,
+.end-btn:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.start-btn:hover:enabled,
+.end-btn:hover:enabled {
+  background-color: #004e9a;
+}
+.soap-note-container {
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  padding: 20px;
+  background-color: #fcfcfc;
+  margin-top: 20px;
+}
+
+.soap-heading {
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+  color: #1a3e72;
+  border-bottom: 2px solid #1a3e72;
+  padding-bottom: 4px;
+}
+
+.soap-text {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 0.95rem;
+  white-space: pre-wrap;
+  margin-bottom: 20px;
+  color: #333;
+}

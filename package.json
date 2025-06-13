@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "@livekit/components-react": "^2.9.9",
+    "@livekit/components-styles": "^1.1.6",
+    "livekit-client": "^2.13.4"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.10"
+  }
+}
